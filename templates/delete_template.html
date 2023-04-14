@@ -8,12 +8,12 @@
 
                 <form class="form" method="POST" action="">
                     {% csrf_token %}
-                    <div class="card-header">Delete</div>
+                    <div class="card-header">Advertencia</div>
                     <div class="card-body text-danger">
-                    <h5 class="card-title">Are you sure you want to delete "{{post.title}}"?</h5>
+                    <h5 class="card-title">Eliminar "{{post.title}}"?</h5>
                     
-                    <input class="btn btn-danger" type="submit" value="Confirm">
-                    <a type="buttom" class="btn btn-secondary" href="{{request.GET.next}}">Go back</a>
+                    <input class="btn btn-danger" type="submit" value="Confirmar">
+                    <a type="buttom" class="btn btn-secondary" href="{{request.GET.next}}">Volver</a>
                     </div>
                 </form>
                 

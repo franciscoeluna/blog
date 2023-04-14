@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 import os
 import dj_database_url
 
+import whitenoise
+
+
 
 from pathlib import Path
 
